@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  background-color: rgb(60, 60, 60);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: aliceblue;
+  margin: 0;
+}
+
+p {
+  font-size: 13px;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+.nav-bar {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.not-in {
+  flex-grow: 2;
+}
+
+.nav-items {
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.menu-dot-box {
+  width: 40px;
+  height: 40px;
+  margin-left: 3px;
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(105, 105, 105, 0);
+  border-radius: 100px;
+}
+
+.menu-dot-box:hover {
+  background-color: rgba(105, 105, 105, 0.384);
+}
+
+
+
+.menu-dot {
+  width: 23px;
+  height: 23px;
+}
+
+.account-circle {
+  width: 32px;
+  height: 32px;
+  margin-top: 3px;
+  margin-right: 18px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(79, 132, 224);
+}
+
+.google-logo-box {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  width: auto;
+  height: 90px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.input-text {
+  width: 750px;
+  height: 50px;
+  padding: 16px;
+  border: #494949 solid 1px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-image: url(icons8-수색-100.png), url(icons8-마이크로폰-96.png), url(icons8-compact-camera-100.png);
+  background-repeat: no-repeat;
+  background-size: 18px, 22px;
+  background-position: 18px center, 670px center, 710px center;
+  padding-left: 55px;
+  padding-right: 90px;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+
+.input-text {
+  outline: none;
+}
+
+.input-text:focus::placeholder {
+  color: transparent;
+}
+
+.input-text::placeholder {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.link-box {
+  width: 100%;
+  height: 110px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link-box-items {
+  width: 110px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 4px;
+  color:aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.link-box-items:hover {
+  background-color: rgba(77, 77, 77, 1);
+}
+
+.link-box-items-circle {
+  width: 47px;
+  height: 47px;
+  background-color: rgba(114, 114, 114, 0.178);
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skyblue {
+  background-color: rgba(51, 90, 161, 0.788);
+}
+
+
+.link-box-items-img {
+  width: 24px;
+  height: 24px;
+}
+
+.chrome-set-box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  top: 230px;
+  right: 15px;
+  text-align: center;
+}
+
+.chrome-set {
+  background-color: rgba(51, 91, 193, 0.5);
+  width:155px;
+  height: 31px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px 0;
+  background-image: url(icons8-편집하다-24\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 13px center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.chrome-set-text {
+  color: rgb(203, 236, 251);
+}
+
+.chrome-set:hover {
+  background-color: rgba(65, 117, 230, 0.5);
+}
