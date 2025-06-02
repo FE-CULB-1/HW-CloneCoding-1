@@ -1,0 +1,250 @@
+body{
+    font-family: 'Noto Sans',Arial, Helvetica, sans-serif;
+    background-color: #1E1F20;
+    text-align: center;
+    padding: 20px;
+    color:#E3E3E3;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;           
+    margin: 0;
+}
+
+.이메일영역{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.이메일 {
+    width: 460px;
+    height: 33.5px;
+    padding:9px 0px 3px;
+    font-size: 14px;
+}
+.이메일을잊엇니{
+    background: #0E0E0E;
+    border:none;
+    border-radius: 7px;
+    cursor:pointer;
+    display: inline-flex;
+    align-items: center;
+}
+.이메일을잊엇니 a{ 
+    text-decoration: none;
+    color:#A8C7FA;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Noto Sans',Arial, Helvetica, sans-serif;
+}
+.이메일을잊엇니:hover {
+    background-color: #1B1D21;
+}
+
+.계정  {
+    background-color:#0E0E0E;
+    color:#A8C7FA;
+    border:none;
+    border-radius:24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 40px;
+    padding:0px 16px;
+    margin: 38px 0 6px;
+}
+
+.계정:hover {
+    background-color: #141517;
+}
+
+.다음 {
+    background-color:#A8C7FA;
+    color: #062E6F;
+    border:none;
+    border-radius:24px;
+    font-size:14px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 40px;
+    padding:0px 24px;
+    margin: 38px 0 6px 24px;
+}
+
+.다음:hover {
+    background-color: #B6D0FB;
+}
+
+.logo {
+    display: flex;
+    position:relative;
+    
+    
+}
+
+.입력창 {
+    padding:8px 0px 0px;
+}
+
+.입력 {
+    width:460px;
+    height:56px;
+    background-color: #0E0E0E;
+    border:1px solid #8E918F;
+    border-radius: 4px;
+    padding:13px 15px;
+    margin:1px 1px 0px;
+    font-size: 17px;
+    color:#C4C7C5;
+}
+
+.입력:focus {
+    border:2px solid #A8C7FA;
+    outline:none;
+}
+
+.입력::placeholder {
+    color:#C4C7C5;
+    font-size: 17px;;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.all {
+    width: 1040px;
+    height:403.5px;
+    background-color: #0E0E0E;
+    border-radius:28px;
+    padding: 108px 36px 36px;
+    margin:0px 200px;
+    display:flex;
+    flex-direction: column;
+    gap:24;
+}
+
+.위 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.아래 {
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+.로그인 h1{
+    width:460px;
+    height:44px;
+    line-height: 44px;
+    color:#E3E3E3;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    margin: 24px 0px 0px;
+    box-sizing: border-box;
+}
+
+.안내문자{
+    margin: 16px 0px 0px;
+    font-size: 16px;
+}
+
+.왼{
+    width: 484px;
+    height: 253.5px;
+    text-align: left;
+    margin: -72px 0px 0px;
+    padding:0px 24px 0px 0px;
+}
+
+.오{
+    width: 484px;
+    height: 181.5px;
+    padding:0px 0px 0px 24px;
+    text-align: left;
+}
+
+.너꺼아님{
+    width: 460px;
+    height: 52px;
+    padding:9px 0px 3px;
+    margin-top: 32px;
+    font-size:14px;
+    color:#C4C7C5;
+}
+
+.너꺼아님 a{ 
+    text-decoration: none;
+    border:none;
+    color:#A8C7FA;
+    font-size: 14px;
+    cursor:pointer;
+    border-radius: 4px;
+    font-weight: 550;
+    
+}
+
+.너꺼아님 a:hover {
+  text-decoration: underline; /* 마우스 올리면 밑줄 생김 */
+}
+
+.나머지{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding-right: 16px; 
+    color:#E8EAED;
+}
+
+.언어선택 select{
+    width: 184px;
+    display:inline-block;
+    background-color:#1E1F20;
+    color:#C4C7C5;
+    margin: 16px 4px;
+    padding:8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor:pointer;
+    border:none;
+}
+
+.언어선택 select:focus {
+    border:2px solid #A8C7FA;
+    outline:none;
+    
+}
+
+.언어선택 select:hover {
+    background-color: #2C2D2D;
+    cursor: pointer;
+}
+
+.세개{
+    display: flex;
+    list-style: none;
+    margin: 0 -12px;
+}
+
+.도움말, .개인정보, .약관{
+    background-color: #1E1F20;
+    color:#E3E3E3;
+    display:inline-block;
+    margin: 16px 4px;
+    padding:8px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.도움말:hover,
+.개인정보:hover,
+.약관:hover {
+    background-color: #2C2D2D;
+    cursor: pointer;
+}
