@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>로그인</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      display: flex;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+    }
+
+    .left-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .right-panel {
+      flex: 1;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-wrapper {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0 0 15px 0;
+      color: #555;
+      font-size: 14px;
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      background-color: #f0f6ff;
+      padding: 10px 14px;
+      margin: 10px 0;
+    }
+
+    .input-group img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      opacity: 0.6;
+    }
+
+    .input-group input {
+      border: none;
+      outline: none;
+      background: transparent;
+      flex: 1;
+      font-size: 16px;
+    }
+
+    .black-button {
+      background-color: #222;
+      color: white;
+      width: 100%;
+      border: none;
+      padding: 14px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 32px; 
+    }
+
+    .black-button:hover {
+      background-color: #444;
+    }
+
+    .forgot {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 20px;
+      color: #555;
+    }
+
+    .black-link {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 4px;
+    }
+
+    .black-link:hover {
+      text-decoration: underline;
+    }
+
+    .login-image {
+      max-width: 100%;
+      max-height: 90%;
+      border-radius: 16px;
+    }
+
+    .login-image {
+      height: 90%;
+      width: auto;
+      border-radius: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="form-wrapper">
+        <h3>로그인</h3>
+        <p>서비스를 시작하려면 로그인 하세요</p>
+
+    
+        <div class="input-group">
+          <img src="C:/Users/user/Desktop/icon_person_line-8a9c4177e6bbe091497446df35d4cbd3.svg" alt="뉴로우 사람 사진">
+          <input type="text" placeholder="이메일주소를 입력하세요.">
+        </div>
+
+      
+        <div class="input-group">
+          <img src="C:/Users/user/Desktop/icon_lock_2_line-c691927acb956ca6a114db218449710e.svg" alt="뉴로우 비밀번호 사진">
+          <input type="password" placeholder="비밀번호를 입력하세요.">
+        </div>
+
+        <button class="black-button">로그인</button>
+
+        <div class="forgot">
+          비밀번호를 잊어버리셨나요?
+          <a href="https://auth.inhrplus.com/auth/find-password-process/find-pw-req" class="black-link">비밀번호 찾기</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <img src="C:/Users/user/Desktop/login_background.webp" alt="뉴로우 배경 이미지" class="login-image">
+    </div>
+  </div>
+</body>
+</html>
