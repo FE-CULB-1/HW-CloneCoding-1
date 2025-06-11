@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>로그인</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="https://www.coupang.com/"><img src="Coupang_logo.svg.png" width="195" height="45" alt="쿠팡로고" ></a></h1>
+            <h1>
+                <ul>
+                    <a href="index1.html" class="email">이메일 로그인</a>
+                    <a href="index2.html" class="pn">휴대폰번호 로그인</a>
+                    <a href="index3.html" class="QR">QR코드 로그인</a> 
+                </ul>               
+            </h1>
+        </header>
+        <main>
+            <form action="#" method="post" id="loginfrm">
+                <fieldset>
+                    <legend class="skip">로그인 양식</legend>
+                    <ul>
+                        <li>
+                            <span class="id_bg"> <img src="Coupang_id.png" alt="id"> </span>
+                            <span><input type="text" name="user_id" placeholder="아이디(이메일)"></span>
+                            <div><img src="Coupang_id1.png" alt="id1"></div>
+                        </li>
+                        <li>
+                            <span class="pw_bg"> <img src="Coupang_pw.png" alt="pw"> </span>
+                            <span><input type="password" name="user_pw" placeholder="비밀번호"></span>
+                            <span class="pw_show_hide"></span>
+                            <div><img src="Coupang_pw1.png" alt="pw1"></div>
+                        </li>
+                    </ul>
+                    <div class="btm">
+                        <p>
+                            <label>
+                                <input type="checkbox" name="login_y" id="login_y">
+                                <span>자동 로그인</span>
+                            </label>
+                        </p>
+                        <a href="#" class="idpw_search">아이디∙비밀번호 찾기 ></a>
+                    </div>
+                    <button type="submit" id="login_btn">로그인</button>
+                    <hr>
+                </fieldset>
+            </form>
+            <div class="join">
+                <a href="https://login.coupang.com/login/memberJoinFrm.pang" class="join_link">회원가입</a>
+            </div>
+        </main>
+        <footer>
+            <p>©Coupang Corp. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

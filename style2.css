@@ -1,0 +1,108 @@
+header h1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+header h1 ul {
+    text-align: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+header h1 ul a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header h1 ul .pn {
+    color: royalblue;
+    border-bottom: 3px solid royalblue;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+main {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div {
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    width: 448px;
+    border: 1px solid #ccc;
+    border-radius: 4.5px;
+}
+ul li :focus {
+    outline: none; 
+    box-shadow: 0 0 8px royalblue;
+    border-color: royalblue;
+}
+ul li span img {
+    width: 40px;
+    height: 45px;
+}
+ul li span input {
+    width: 403.5px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #ccc;
+    border-radius: 4.5px;
+}
+
+button {
+    width: 450px;
+    height: 45px;
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 0.5px solid #ccc;
+}
+
+main .join {
+    width: 449px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 4.5px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .join a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 11px;
+    font-weight: 300;
+}

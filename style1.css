@@ -1,0 +1,121 @@
+header h1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+header h1 ul {
+    text-align: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+header h1 ul a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header h1 ul .email {
+    color: royalblue;
+    border-bottom: 3px solid royalblue;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+main {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    width: 450px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+ul li span img {
+    width: 45px;
+    height: 50px;
+    border-right: 1px solid #ccc;
+}
+ul li span input {
+    width: 340px;
+    height: 48px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+ul li div img {
+    width: 50px;
+    height: 50px;
+}
+
+.btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.btm input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 5px;
+}
+.btm span {
+    font-size: 15px;
+    font-weight: 200;
+}
+.btm a {
+    color:royalblue;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+button {
+    width: 450px;
+    height: 45px;
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 0.5px solid #ccc;
+}
+
+main .join {
+    width: 449px;
+    height: 44px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 4.5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .join a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 11px;
+    font-weight: 300;
+}

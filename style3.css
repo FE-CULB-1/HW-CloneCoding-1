@@ -1,0 +1,110 @@
+header h1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+header h1 ul {
+    text-align: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+header h1 ul a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header h1 ul .QR {
+    color: royalblue;
+    border-bottom: 3px solid royalblue;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+main {
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.info h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.info ol li {
+    font-size: small;
+    font-weight: 300;
+    color: #353535;
+    margin-top: 15px;
+}
+.info .num {
+    font-size: 25px;
+    font-weight: 350;
+    width: 30px;
+    background-color:rgb(237, 237, 243);
+    border: 10px solid rgb(237, 237, 243);
+    border-radius: 10px;
+    margin: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info span {
+    font-size: small;
+    font-weight: 300;
+    color: rgb(98, 97, 97);
+}
+
+.qr img {
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.qr p {
+    font-size: small;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 100px;
+    color: rgb(128, 127, 127);
+}
+
+hr {
+    border: 0.5px solid #ccc;
+}
+
+main .join {
+    width: 449px;
+    height: 45px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 4.5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .join a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 11px;
+    font-weight: 300;
+}
